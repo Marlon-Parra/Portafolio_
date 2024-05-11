@@ -1,0 +1,331 @@
+/* Estilos para computadoras de escritorio y portátiles */
+@media (min-width: 1024px) {
+
+    body{
+        margin: 0;
+        padding: 0;     
+        padding-right: 15px; 
+        padding-left: 15px;  
+        overflow-x: hidden;                
+      }
+      .encabezado {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 0; /* Añade un poco de espacio arriba y abajo del encabezado */
+      }
+      
+      .contact-info {
+        display: flex;
+        align-items: center;
+        margin-right: 23px;
+        margin-left: 23px;
+      }
+      
+    
+      .navegation a {
+        margin-left: 20px;
+        text-decoration: none;
+        padding: 10px 20px; /* Ajusta el relleno para hacer los enlaces más visibles y clicables */
+        color: #464646;
+      }
+      
+      .navegation  {
+        display: flex; /* Asegura que los enlaces de navegación estén en línea */
+      }
+      
+     
+     .correo{
+         display: none;
+     }
+     
+     .contact-image {
+        float: left; /* Alinea la imagen a la izquierda */
+        border-radius: 50%;
+        width: 368px;
+        height: 368px;
+        margin-top: -2rem;
+        object-fit: cover; /* Esto asegura que la imagen se ajuste dentro del contenedor sin distorsionarla */
+        overflow: hidden;
+        position: relative;
+        left: 12px;
+      }
+      
+      .presentacion {
+        max-width: calc(100% - 368px - 60px); /* Toma en cuenta el ancho de la imagen y el espacio adicional */
+        font-family: Arial, sans-serif;
+        padding-left: 60px;
+        display: inline-block;
+        vertical-align: top; /* Alinea el texto al principio */
+      }
+      
+      .titulo-presentacion{
+          font-size: 45px;
+          margin-bottom: 20px; /* Agrega un margen inferior al título */
+
+         
+
+      }
+
+      .texto-presentacion{
+          font-size: 30px;
+          margin-bottom: 20px; /* Agrega un margen inferior al texto */
+
+          
+
+      }
+      
+      .social-links a {
+        font-size: 30px;
+        text-decoration: none;
+        margin-right: 76px;
+        max-width: 600px;
+      }
+
+      
+  .social-links {
+    display: flex;
+    margin-top: 20px; /* Agrega un margen superior a los enlaces sociales */
+
+  }
+  
+  .social-links a {
+    text-decoration: none; /* Quitar subrayado */
+    color: #333; /* Color del texto */
+    position: relative; /* Establecer posición relativa */
+    justify-content: space-between;
+    margin-right: 35px;
+  
+  }
+  
+  .social-links a::after {
+    content: "\2197"; 
+  }
+  
+  .social-links a:hover {
+    color: #007bff; /* Color al pasar el ratón */
+  }
+
+      
+    .descripcion-Marlon{
+      margin-top: 10%;       
+      background: #EAF2FD;
+      padding-left: 60px;
+      padding-right: 30px;
+      
+    }
+
+    .descripcion-Marlon p{
+    max-width: 80%;        
+
+    }
+
+    .titulo{
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .skills-titulo{
+    text-align: center;
+    }
+    .fila-skills {
+      display: flex;
+      justify-content: space-between; /* Distribuye los elementos uniformemente en la fila */
+      margin-bottom: 20px; /* Espacio entre cada fila de habilidades */
+    }
+    
+    .skills-dev {
+      text-align: center; /* Centra el texto horizontalmente */
+      background-color: #f2f2f2; /* Fondo gris claro */
+      width: calc(33.33% - 20px); /* Ancho igual para cada habilidad, considerando el espacio entre ellas */
+      padding: 10px; /* Espacio alrededor de cada habilidad */
+    }
+    
+    .skills-dev img {
+      width: 80px; /* Tamaño de la imagen ajustado */
+      height: auto;
+      display: block; /* Asegura que la imagen se ajuste correctamente dentro del contenedor */
+      margin: 0 auto 10px; /* Centra la imagen verticalmente y proporciona espacio debajo de ella */
+    }
+    .fila-hobbies {
+      display: flex;
+      justify-content: space-between; /* Distribuye los elementos uniformemente en la fila */
+      margin-bottom: 20px; /* Espacio entre cada fila de hobbies */
+    }
+    .hobbies-titulo{
+      text-align: center;      
+    }
+    .hobbies {
+      text-align: center; /* Centra el texto horizontalmente */
+      background-color: #f2f2f2; /* Fondo gris claro */
+      width: calc(33.33% - 20px); /* Ancho igual para cada hobby, considerando el espacio entre ellos */
+      padding: 10px; /* Espacio alrededor de cada hobby */
+    }
+    
+    .hobbies img {
+      width: 80px; /* Tamaño de la imagen ajustado */
+      height: auto;
+      display: block; /* Asegura que la imagen se ajuste correctamente dentro del contenedor */
+      margin: 0 auto 10px; /* Centra la imagen verticalmente y proporciona espacio debajo de ella */
+    }
+    
+    .formacion-titulo{
+      text-align: center;
+    }
+    .formacion {
+  display: flex;
+  flex-direction: row; /* Alinea los elementos en una fila */
+  align-items: center; /* Centra verticalmente los elementos */
+  margin-bottom: 20px; /* Espacio entre cada elemento de formación */
+}
+
+.formacion img {
+  width: 160px; /* Tamaño de la imagen */
+  height: auto; /* Altura automática para mantener la proporción */
+  margin-right: 20px; /* Espacio entre las imágenes */
+  border-radius: 50%; /* Bordes redondeados */
+}
+
+.formacion:first-child img {
+  padding-left: 0; /* Elimina el padding izquierdo para la primera imagen */
+}
+
+.formacion:last-child img {
+  margin-right: 0; /* Elimina el margen derecho para la última imagen */
+}
+
+.formacion {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centra los elementos verticalmente */
+  margin-bottom: 20px; /* Espacio entre cada elemento */
+  border: 2px solid #b3d7ff; /* Borde azul claro */
+  border-radius: 10px; /* Bordes redondeados */
+  padding: 20px; /* Espacio interno */
+} 
+
+.formacion em {
+  margin-top: 10px; /* Espacio entre la imagen y el título */
+}
+
+.formacion span {
+  font-style: italic; /* Texto en cursiva */
+}
+
+    .experiencia-titulo{
+      text-align: center;
+      
+    }
+    .container-experiencia{
+      margin-bottom: 20px;
+    }
+    /* Estilos para la tarjeta */
+    .card {
+      background-color: #f9f9f9;
+      border: 1px solid #ddd;
+      margin: 10px;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  /* Estilos para el texto */
+  .card h2 {
+      font-size: 24px;
+      color: #333;
+      margin-bottom: 10px;
+  }
+
+  /* Estilos para el botón */
+  .card button {
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+  }
+
+  /* Estilos para el botón al pasar el mouse */
+  .card button:hover {
+      background-color: #0056b3;
+  }
+    
+    .contacto{
+      padding-left: 60px;
+    }
+    
+    .error {
+      color: #FF5733; /* Color naranja casi rojo */
+      font-size: 14px;
+      margin-top: 4px;
+    }
+    #contactForm {
+        max-width: 400px;
+        margin: auto;
+    }
+    
+    input, textarea {
+        width: calc(100% - 20px);
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+    
+    .boton-input {
+        padding: 10px;
+        background-color: #3333cc;
+        color: white;
+    }
+    .card {
+      border: 1px solid #007bff; /* Borde azul */
+      border-radius: 10px;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+      padding: 20px;
+      max-width: 100%;
+      margin: 0 auto;
+      background-color: #f9f9f9;
+      margin-left: 1%;
+      margin-right: 1%;
+  }
+  .card h2 {
+      color: #007bff; /* Color del texto */
+      text-align: center;
+  }
+
+  .card p{
+    text-align: center;
+  }
+  .card label, .card button {
+      display: block;
+      margin-bottom: 10px;
+  }
+  .card input[type="text"],
+  .card input[type="email"],
+  .card textarea {
+      width: calc(100% - 20px);
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+  }
+  .card .boton-input{
+      background-color: #007bff; /* Color de fondo del botón */
+      color: #fff; /* Color del texto del botón */
+      border: none;
+      border-radius: 5px;
+      padding: 10px;
+      cursor: pointer;
+  }
+  .card .boton-input:hover {
+      background-color: #0056b3; /* Cambio de color al pasar el mouse */
+  }
+  footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+}
