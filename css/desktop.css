@@ -1,6 +1,28 @@
 /* Estilos para computadoras de escritorio y portátiles */
 @media (min-width: 1024px) {
+    /* Aumento del tamaño de los títulos */
+    .titulo-presentacion {
+        font-size: 50px;
+    }
+    
+    .skills-titulo,
+    .hobbies-titulo,
+    .formacion-titulo,
+    .experiencia-titulo {
+        font-size: 36px;
+    }
+    
+    /* Ajuste del menú hacia la izquierda */
+    .navegation {
+        margin-right: auto;
+        margin-left: 20px;
+    }
+    
+    /* Resto de tu CSS aquí */
+}
 
+
+    
     body{
         margin: 0;
         padding: 0;     
