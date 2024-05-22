@@ -1,7 +1,22 @@
 /* Estilos para computadoras de escritorio y portátiles */
 @media (min-width: 1024px) {
 
-
+ /* Aumento del tamaño de los títulos y los hacemos negrita */
+    .titulo-presentacion,
+    .skills-titulo,
+    .hobbies-titulo,
+    .formacion-titulo,
+    .experiencia-titulo {
+      font-size: 30px !important;
+        font-weight: bold;
+    }
+    
+    /* Ajuste del menú hacia la izquierda */
+    .navegation {
+        margin-right: auto;
+        margin-left: 20px;
+    }
+    
 
 
 
