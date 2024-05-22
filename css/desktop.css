@@ -8,6 +8,7 @@
     .formacion-titulo,
     .experiencia-titulo,
     .titulo-seccion {
+      font-size: 50px !important;
         font-weight: bold;
         margin-top: 20px; /* Agrega espacio arriba de los títulos */
         margin-bottom: 20px; /* Agrega espacio abajo de los títulos */
