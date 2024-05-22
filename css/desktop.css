@@ -72,7 +72,7 @@
       }
       
       .presentacion {
-        max-width: calc(100% - 368px - 60px); /* Toma en cuenta el ancho de la imagen y el espacio adicional */
+        max-width: calc(100% - 340px - 60px); /* Toma en cuenta el ancho de la imagen y el espacio adicional */
         font-family: Arial, sans-serif;
         padding-left: 60px;
         display: inline-block;
