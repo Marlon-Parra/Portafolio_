@@ -2,13 +2,21 @@
 @media (min-width: 1024px) {
 
   /* Aumento del tamaño de los títulos y los hacemos negrita */
-    .titulo-presentacion,
+
+  .titulo-presentacion{
+    font-size: 50px !important;
+        font-weight: bold;
+        margin-top: 20px; /* Agrega espacio arriba de los títulos */
+        margin-bottom: 20px; /* Agrega espacio abajo de los títulos */
+  }
+    
     .skills-titulo,
     .hobbies-titulo,
     .formacion-titulo,
     .experiencia-titulo,
     .titulo-seccion, .titulo-sobreMi {
-      font-size: 50px !important;
+      text-align: center;
+      font-size: 30px !important;
         font-weight: bold;
         margin-top: 20px; /* Agrega espacio arriba de los títulos */
         margin-bottom: 20px; /* Agrega espacio abajo de los títulos */
