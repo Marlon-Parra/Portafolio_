@@ -7,7 +7,7 @@
     .hobbies-titulo,
     .formacion-titulo,
     .experiencia-titulo,
-    .titulo-seccion {
+    .titulo-seccion, .titulo-sobreMi {
       font-size: 50px !important;
         font-weight: bold;
         margin-top: 20px; /* Agrega espacio arriba de los títulos */
