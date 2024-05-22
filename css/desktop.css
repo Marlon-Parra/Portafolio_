@@ -1,21 +1,30 @@
 /* Estilos para computadoras de escritorio y portátiles */
 @media (min-width: 1024px) {
 
- /* Aumento del tamaño de los títulos y los hacemos negrita */
+  /* Aumento del tamaño de los títulos y los hacemos negrita */
     .titulo-presentacion,
     .skills-titulo,
     .hobbies-titulo,
     .formacion-titulo,
-    .experiencia-titulo {
-      font-size: 30px !important;
+    .experiencia-titulo,
+    .titulo-seccion {
         font-weight: bold;
+        margin-top: 20px; /* Agrega espacio arriba de los títulos */
+        margin-bottom: 20px; /* Agrega espacio abajo de los títulos */
     }
-    
+
     /* Ajuste del menú hacia la izquierda */
     .navegation {
         margin-right: auto;
         margin-left: 20px;
     }
+
+    /* Ajuste del título "Sobre mí" */
+    .titulo-presentacion {
+        font-size: 45px;
+        text-align: center; /* Centra el título */
+    }
+
     
 
 
