@@ -14,11 +14,20 @@
     .hobbies-titulo,
     .formacion-titulo,
     .experiencia-titulo,
-    .titulo-seccion, .titulo-sobreMi {
+    .titulo-seccion  {
       text-align: center;
       font-size: 30px !important;
         font-weight: bold;
         margin-top: 20px; /* Agrega espacio arriba de los títulos */
+        margin-bottom: 20px; /* Agrega espacio abajo de los títulos */
+    }
+
+    .titulo-sobreMi{
+      text-align: center;
+      font-size: 30px !important;
+        font-weight: bold;
+        font-size: 20px;
+        padding-top: 30px;
         margin-bottom: 20px; /* Agrega espacio abajo de los títulos */
     }
 
@@ -100,9 +109,6 @@
       .titulo-presentacion{
           font-size: 45px;
           margin-bottom: 20px; /* Agrega un margen inferior al título */
-
-         
-
       }
 
       .texto-presentacion{
@@ -149,12 +155,11 @@
       margin-top: 10%;       
       background: #EAF2FD;
       padding-left: 60px;
-      padding-right: 30px;
-      
+      height: 300px;
     }
 
     .descripcion-Marlon p{
-    max-width: 80%;        
+    max-width: 97%;        
 
     }
 
