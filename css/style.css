@@ -3,9 +3,6 @@
 @import url(tablet.css);
 @import url(movil.css);
 
-.links-a{
-    display: flex;
-}
 /*estilos generales*/
 body {
     font-family: 'Montserrat', sans-serif;
