@@ -5,7 +5,7 @@
 
 
   .contact-info em{
-    font-size: 20px;
+    font-size: 25px;
   }
 
   .titulo-presentacion{
@@ -78,13 +78,17 @@
       .navegation a {
         margin-left: 20px;
         text-decoration: none;
-        padding: 10px 20px; /* Ajusta el relleno para hacer los enlaces más visibles y clicables */
+        padding: 8px 15px;
         color: #464646;
-        font-size: 20px;
+        font-size: 25px;
       }
       
       .navegation  {
         display: flex; /* Asegura que los enlaces de navegación estén en línea */
+      }
+
+      .navegation a:hover{
+        color:rgb(215, 248, 27);
       }
       
      
@@ -97,7 +101,6 @@
         border-radius: 50%;
         width: 340px;
         height: 340px;
-        margin-top: -2rem;
         object-fit: cover; /* Esto asegura que la imagen se ajuste dentro del contenedor sin distorsionarla */
         overflow: hidden;
         position: relative;
@@ -167,7 +170,7 @@
 
     .descripcion-Marlon p{
     max-width: 97%;        
-
+    font-size: 25px;
     }
 
     .titulo{
