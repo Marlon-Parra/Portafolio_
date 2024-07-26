@@ -130,6 +130,7 @@
     background-color: #f0f0f0; /* Fondo gris claro */
     border-radius: 10px; /* Bordes redondeados */
     margin-bottom: 20px; /* Espacio entre las filas */
+    margin-top: 15px;
   }
 
   .skills-dev img {
