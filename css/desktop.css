@@ -24,6 +24,7 @@
       font-size: 35px !important;
         font-weight: bold;
         margin-top: 45px; /* Agrega espacio arriba de los títulos */
+        margin-bottom: 15px;
     }
 
     .titulo-sobreMi{
