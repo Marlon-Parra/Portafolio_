@@ -44,7 +44,6 @@
     /* Ajuste del título "Sobre mí" */
     .titulo-presentacion {
         font-size: 45px;
-        text-align: center; /* Centra el título */
     }
 
     
@@ -101,7 +100,6 @@
         float: left; /* Alinea la imagen a la izquierda */
         border-radius: 50%;
         width: 340px;
-        height: 340px;
         object-fit: cover; /* Esto asegura que la imagen se ajuste dentro del contenedor sin distorsionarla */
         overflow: hidden;
         position: relative;
@@ -163,7 +161,6 @@
     .descripcion-Marlon{
       margin-top: 10%;       
       background: #EAF2FD;
-      height: 440px;
       padding-left: 10em;
       padding-right: 7em;
     }
