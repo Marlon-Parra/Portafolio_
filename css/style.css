@@ -5,8 +5,17 @@
 
 /*estilos generales*/
 body {
-    font-family: 'Montserrat', sans-serif;
-    background-color: rgb(237, 228, 228);
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+}
+
+p, a, li, div{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
 }
 
 
