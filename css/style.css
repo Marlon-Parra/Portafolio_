@@ -8,10 +8,12 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-.hobbies span{
+.hobbies span, .skills-dev b{
     font-weight: bold;
     font-size: 25px;
 }
+
+
 
 
 
