@@ -65,8 +65,7 @@
 .presentacion .social-links a {
     text-decoration: none; /* Elimina el subrayado */
     color: #333; /* Cambia el color del texto */
- 
-    font-size: 26px; /* Cambia el tamaño del texto a 16 píxeles */
+    font-size: 20px; /* Cambia el tamaño del texto a 16 píxeles */
     /* Otros estilos que desees agregar */
     justify-content: space-between;
     padding-right: 5px;
@@ -105,11 +104,12 @@
   padding-bottom: 25px;
   font-size: 40px;
   padding-top: 20px;
+  text-align: center;
 }
 
 
 .presentacion {
- max-width: 550px; /* Reduje un poco el ancho máximo para que se ajuste mejor junto a la imagen */
+ max-width: 450px; /* Reduje un poco el ancho máximo para que se ajuste mejor junto a la imagen */
  font-family: Arial, sans-serif;
  font-size: 23px;
  margin-top: 0;
