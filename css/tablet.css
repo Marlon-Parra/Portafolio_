@@ -166,6 +166,10 @@
     flex-wrap: wrap;
   }
 
+  .skills-titulo{
+  margin-bottom: 10px;
+  }
+
   .skills-dev {
     width: calc(100% / 3); /* Para distribuir las imágenes en tres columnas */
     box-sizing: border-box; /* Para incluir el padding y el borde en el ancho */
