@@ -222,6 +222,12 @@
       display: block; /* Asegura que la imagen se ajuste correctamente dentro del contenedor */
       margin: 0 auto 10px; /* Centra la imagen verticalmente y proporciona espacio debajo de ella */
     }
+
+    .hobbies span, .skills-dev b{
+      font-weight: bold;
+      font-size: 25px;
+  }
+  
     
     .formacion-titulo{
       text-align: center;
