@@ -166,9 +166,6 @@
     flex-wrap: wrap;
   }
 
-  .skills-titulo{
-  margin-bottom: 10px;
-  }
 
   .skills-dev {
     width: calc(100% / 3); /* Para distribuir las imágenes en tres columnas */
@@ -178,6 +175,7 @@
     background-color: #f0f0f0; /* Fondo gris claro */
     border-radius: 10px; /* Bordes redondeados */
     margin-bottom: 20px; /* Espacio entre las filas */
+    margin-top: 15px;
   }
 
   .skills-dev img {
