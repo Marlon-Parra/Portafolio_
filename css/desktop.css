@@ -3,6 +3,11 @@
 
   /* Aumento del tamaño de los títulos y los hacemos negrita */
 
+
+  .contact-info em{
+    font-size: 20px;
+  }
+
   .titulo-presentacion{
     font-size: 50px !important;
         font-weight: bold;
@@ -16,19 +21,17 @@
     .experiencia-titulo,
     .titulo-seccion  {
       text-align: center;
-      font-size: 30px !important;
+      font-size: 35px !important;
         font-weight: bold;
-        margin-top: 20px; /* Agrega espacio arriba de los títulos */
-        margin-bottom: 20px; /* Agrega espacio abajo de los títulos */
+        margin-top: 45px; /* Agrega espacio arriba de los títulos */
     }
 
     .titulo-sobreMi{
       text-align: center;
-      font-size: 30px !important;
+        font-size: 35px !important;
         font-weight: bold;
-        font-size: 20px;
         padding-top: 30px;
-        margin-bottom: 20px; /* Agrega espacio abajo de los títulos */
+        margin-bottom: 20px;
     }
 
     /* Ajuste del menú hacia la izquierda */
@@ -77,6 +80,7 @@
         text-decoration: none;
         padding: 10px 20px; /* Ajusta el relleno para hacer los enlaces más visibles y clicables */
         color: #464646;
+        font-size: 20px;
       }
       
       .navegation  {
@@ -156,8 +160,9 @@
     .descripcion-Marlon{
       margin-top: 10%;       
       background: #EAF2FD;
-      padding-left: 60px;
-      height: 300px;
+      height: 440px;
+      padding-left: 10em;
+      padding-right: 7em;
     }
 
     .descripcion-Marlon p{
@@ -184,6 +189,7 @@
       background-color: #f2f2f2; /* Fondo gris claro */
       width: calc(33.33% - 20px); /* Ancho igual para cada habilidad, considerando el espacio entre ellas */
       padding: 10px; /* Espacio alrededor de cada habilidad */
+      margin-top: 15px;
     }
     
     .skills-dev img {
