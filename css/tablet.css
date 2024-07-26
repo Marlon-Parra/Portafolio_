@@ -101,7 +101,6 @@
 
 /* titulos skills, hobbies, formación y experiencia*/
 .skills-titulo,.hobbies-titulo, .formacion-titulo, .experiencia-titulo {
-  padding-left: 30px;
   font-weight: 700;
   padding-bottom: 25px;
   font-size: 40px;
