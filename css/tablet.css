@@ -191,6 +191,9 @@
     border-radius: 0 0 10px 10px; /* Bordes redondeados solo abajo */
     background-color: #fff; /* Fondo blanco para la frase */
   }
+  .skills-dev b{
+    background-color: #fff;
+  }
   
 .fila-hobbies {
     display: flex;
