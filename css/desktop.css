@@ -48,8 +48,10 @@
 
     
      .links-a{
-      display: flex;
-     }
+        text-decoration: none;
+        
+      }
+     
 
 
     
