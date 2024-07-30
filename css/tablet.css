@@ -191,9 +191,7 @@
     border-radius: 0 0 10px 10px; /* Bordes redondeados solo abajo */
     background-color: #fff; /* Fondo blanco para la frase */
   }
-  .skills-dev b{
-    background-color: #fff;
-  }
+ 
   
 .fila-hobbies {
     display: flex;
@@ -221,7 +219,6 @@
     padding: 10px; /* Espacio interno para la frase */
     border-top: 1px solid #ccc; /* Borde superior para separar la imagen de la frase */
     border-radius: 0 0 10px 10px; /* Bordes redondeados solo abajo */
-    background-color: #fff; /* Fondo blanco para la frase */
     font-weight: bold;
   }
   
