@@ -206,8 +206,12 @@
 }
 .links-a{
   text-decoration: none;
-  
-}
+  display: inline-block;
+  padding: 0px;
+  border: none;
+  background: none;
+    
+  }
 
 .card {
   border: 1px solid #007bff; /* Borde azul */

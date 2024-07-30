@@ -48,7 +48,11 @@
 
     
      .links-a{
-        text-decoration: none;
+      text-decoration: none;
+      display: inline-block;
+      padding: 0px;
+      border: none;
+      background: none;
         
       }
      

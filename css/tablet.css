@@ -256,7 +256,12 @@
 
 .links-a{
   text-decoration: none;
-}
+  display: inline-block;
+  padding: 0px;
+  border: none;
+  background: none;
+    
+  }
 /* Estilos para el botón */
 .boton {
     font-size: 20px; /* Tamaño del texto del botón */
